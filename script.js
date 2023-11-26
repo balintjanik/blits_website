@@ -10,7 +10,7 @@ window.onload = function(){
     for (let i = 0; i < contactitems.length; i++){
         contactitems[i].addEventListener("click", (e) => {
             //navigator.clipboard.writeText(contactitems[i].childNodes[3].innerHTML)
-            navigator.clipboard.writeText(contactitems[i].childNodes[3].innerHTML).then(function() {
+            navigator.clipboard.writeText(contactitems[i].childNodes[3].childNodes[0].innerHTML).then(function() {
                 var notification = document.getElementById('notification');
 
                 // Reset animation by removing and reinserting the element
