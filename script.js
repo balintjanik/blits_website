@@ -363,6 +363,8 @@ window.onload = function(){
 
     init();
     animate();
+
+    document.getElementById("contactform").setAttribute("action", sendMail())
 }
 
 function sendMail() {
