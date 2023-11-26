@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" id="dynamic" href="pc.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>BLITS</title>
+</head>
+<body>
+    <!--navbar section start-->
+    <nav class="navbar" id="navbar">
+        <div class="max-width">
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Főoldal</a></li>
+                <li><a href="#intro" class="menu-btn">Rólunk</a></li>
+                <li><a href="#teachers" class="menu-btn">Tanáraink</a></li>
+                <li><a href="#courses" class="menu-btn">Kurzusok</a></li>
+                <li><a href="#contact" class="menu-btn">Kapcsolat</a></li>
+            </ul>
+            <div class="menu-btn" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!--home section start-->
+    <section class="home" id="home">
+        <canvas id="home-canvas"></canvas>
+        <div class="max-width" id="overlay">
+            <div class="home-content" id="overlay">
+                <h1 id="title">BLITS</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--intro section start-->
+    <section class="intro" id="intro">
+        <div class="max-width">
+            <div class="intro-content">
+                <h2 class="reveal">Rólunk</h2>
+                <p class="reveal">Több évnyi magántanári munka, több tucat elégedett tanuló, több ezer megoldott feladat kellett ahhoz, hogy sikerüljön forradalmasítani azt, ahogy a matematikát tanítani lehet.  Az órák központjában az élő, mély megértés áll, aminek feltétele az aktív fókusz. Bármennyire is egyszerűnek hangzik, sok kihívást jelenthet tartósan fókuszálni főleg egy olyan tantárgyra, amely átlagosan a legnagyobb problémát okozza a tanulóknak. Ezért nálunk fontos, hogy segítsünk motivációt keresni, hiszen a belső motiváció rendkívül nagy szerepet tölt be figyelmünk hosszantartó fenntartásában. Habár ezt nehéz “gyártani”, az biztos, hogy a legnehezebb pillanatokban is megtalálhatjuk az okot arra, hogy tegyünk céljaink eléréséért. Nálunk, a BLITS-nél nem csak felkészítünk a sikeres matematika érettségire, hanem egyedi mentor programunkkal segítünk, hogy megtaláld az utat ahhoz a karrierhez, ahol a legjobban ki tudsz bontakozni.</p>
+                <h3 class="motto reveal">Mottónk: Fókusz, motiváció, céltudatosság.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--teachers section start-->
+    <section class="teachers" id="teachers">
+        <div class="max-width">
+            <div class="teachers-content">
+                <h2 class="reveal">Tanáraink</h2>
+                <div class="twrapper">
+                    <div class="slider-container reveal">
+                        <div class="slider-content">
+                            <div class="tname"><h3>Szulovszky Sándor</h3></div>
+                            <img class="timg" src="data/SZS_cropped.jpg" alt="Szulovszky Sándor"></img>
+                            <div class="tmore">
+                                <h4>Szulovszky Sándor</h4>
+                                <p>Lassan 6 éve foglalkozom érettségi felkészítéssel matematikából és biológiából. Tanítás közben nagyon fontosnak tartom az egyetemen szerzett pszichológiai tanulmányaimat is alkalmazni. Azt gondolom, hogy a mára már általánosnak vett tanár-diák hierarchia helyett előnyösebb a közvetlenség, mert az komfortosabb légkört teremt a tanóra komolyságának elvesztése nélkül.</p>
+                            </div>
+                        </div>
+                        <h4 class="readmore">Tudj meg többet&ensp;<i class="fas fa-chevron-up"></i></h4>
+                    </div>
+                    <div class="slider-container reveal">
+                        <div class="slider-content">
+                            <div class="tmore">
+                                <h4>Bene Vince</h4>
+                                <p>Már az első matek órám után érdekelt a számok világa. Jelenleg harmad éves hallgató vagyok a BME pénzügy és számvitel szakán, pénzügyi technológiák specializációval. 5 éve foglalkozom középszintű matematika érettségi felkészítéssel. Célom, hogy egy erős és biztonságos alapot teremtsek a diákjaim igényeihez igazodva, amire közösen ráépíthessük, mindazt, ami a sikeres érettségihez szükséges.</p>
+                            </div>
+                            <img class="timg" src="data/BV_cropped.jpg" alt="Bene Vince"></img>
+                            <div class="tname"><h3>Bene Vince</h3></div>
+                        </div>
+                        <h4 class="readmore">Tudj meg többet&ensp;<i class="fas fa-chevron-up"></i></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--courses section start-->
+    <section class="courses" id="courses">
+        <div class="max-width">
+            <div class="courses-content">
+                <h2 class="reveal">Kurzusok</h2>
+                <div class="card-container">
+                    <div class="card reveal">
+                        <h3 class="card-title">Alap kurzus</h3>
+                        <ul class="card-list">
+                            <li><b>60 óra</b> elméleti matek</li>
+                            <li><b>30 óra</b> fakultatív ismétlés online</li>
+                            <li><b>10 óra</b> tanulásmódszertan</li>
+                        </ul>
+                        <div class="price-container">
+                            <div class="price"><b>99.000 Ft</b></div>
+                            <div class="price2">990 Ft/óra</div>
+                        </div>
+                    </div>
+                    <div class="card reveal">
+                        <h3 class="card-title">Intenzív kurzus</h3>
+                        <ul class="card-list">
+                            <li><b>XX óra</b> elméleti matek</li>
+                            <li><b>XX óra</b> fakultatív ismétlés online</li>
+                            <li><b>XX óra</b> tanulásmódszertan</li>
+                        </ul>
+                        <div class="price-container">
+                            <div class="price"><b>XX.XXX Ft</b></div>
+                            <div class="price2">XXX Ft/óra</div>
+                        </div>
+                    </div>
+                    <div class="card reveal">
+                        <h3 class="card-title">Gyorstalpaló</h3>
+                        <ul class="card-list">
+                            <li><b>XX óra</b> elméleti matek</li>
+                            <li><b>XX óra</b> fakultatív ismétlés online</li>
+                            <li><b>XX óra</b> tanulásmódszertan</li>
+                        </ul>
+                        <div class="price-container">
+                            <div class="price"><b>XX.XXX Ft</b></div>
+                            <div class="price2">XXX Ft/óra</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section start-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <div class="contact-content">
+                <h2 class="reveal">Kapcsolat</h2>
+                <form action="mailto:janik.balint3.b@gmail.com" method="post" id="contactform">
+                    <div class="container">
+                        <div class="named reveal">
+                            <!--<label for="name">Név:</label>-->
+                            <input class="reveal" type="text" id="name" name="name" required placeholder="Név">
+                        </div>
+                        <div class="emaild">
+                            <!--<label for="email">Email cím:</label>-->
+                            <input class="reveal" type="email" id="email" name="email" required placeholder="Email">
+                        </div>
+                    </div>
+                    <!--<label for="message">Üzenet:</label>-->
+                    <textarea class="reveal" id="message" name="message" rows="7" required placeholder="Üzenet"></textarea>
+                    <input class="reveal" type="submit" value="Küldés">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section start-->
+    <section class="footer" id="footer">
+        <div class="max-width">
+            <div class="footer-content">
+                <div class="container">
+                    <table class="items">
+                        <tr class="footer-item">
+                            <th><i class="fas fa-phone"></i></th>
+                            <th><span>+36-01-000-1111</span></th>
+                        </tr>
+                        <tr class="footer-item">
+                            <th><i class="fas fa-envelope"></i></th>
+                            <th><span>erettsegifelkeszito@blits.hu</span></th>
+                        </tr>
+                        <tr class="footer-item">
+                            <th><i class="fas fa-map-marker-alt"></i></th>
+                            <th><span>1015 Budapest, Szabó Ilonka utca 2-4.<br>Budapesti Egyetemi Katolikus Gimnázium és Kollégium</span></th>
+                        </tr>
+                    </table>
+                    <div id="notification"></div>
+                    <div class="logo">BLITS</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
