@@ -364,3 +364,13 @@ window.onload = function(){
     init();
     animate();
 }
+
+function sendMail() {
+    var name = encodeURIComponent(document.getElementById("name").value);
+    var email = encodeURIComponent(document.getElementById("email").value);
+    var message = encodeURIComponent(document.getElementById("message").value);
+
+    var mailtoLink = "mailto:example@gmail.com?subject=Subject&body=Name: " + name + "%0AEmail: " + email + "%0AMessage: " + message;
+
+    window.location.href = mailtoLink;
+}
