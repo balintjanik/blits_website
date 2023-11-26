@@ -138,16 +138,9 @@
                         var email = encodeURIComponent(document.getElementById("email").value);
                         var message = encodeURIComponent(document.getElementById("message").value);
 
-                        /*var mailtoLink = "mailto:example@gmail.com?subject=Subject&body=Név: " + name + "%0AEmail: " + email + "%0A" + message;
+                        var mailtoLink = "mailto:example@gmail.com?subject=Kapcsolatfelvétel&body=Név: " + name + "%0AEmail: " + email + "%0A" + message;
 
-                        window.location.href = mailtoLink;*/
-
-                        var subject = "Blits.hu űrlap üzenet";
-                        var body = "Név: " + name + "%0AEmail: " + email + "%0A" + message;
-
-                        var gmailLink = "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=&su=" + subject + "&body=" + body;
-
-                        window.location.href = gmailLink;
+                        window.location.href = mailtoLink;
                     }
                 </script>
                 <form id="contactform">
