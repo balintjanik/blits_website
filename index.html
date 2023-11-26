@@ -143,7 +143,7 @@
                         window.location.href = mailtoLink;
                     }
                 </script>
-                <form action="sendMail()" method="post" id="contactform">
+                <form id="contactform">
                     <div class="container">
                         <div class="named reveal">
                             <!--<label for="name">Név:</label>-->
@@ -156,7 +156,7 @@
                     </div>
                     <!--<label for="message">Üzenet:</label>-->
                     <textarea class="reveal" id="message" name="message" rows="7" required placeholder="Üzenet"></textarea>
-                    <input class="reveal" type="submit" value="Küldés">
+                    <input class="reveal" type="submit" value="Küldés" onclick="sendMail()">
                 </form>
             </div>
         </div>
