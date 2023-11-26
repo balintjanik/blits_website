@@ -132,6 +132,17 @@
         <div class="max-width">
             <div class="contact-content">
                 <h2 class="reveal">Kapcsolat</h2>
+                <script>
+                    function sendMail() {
+                        var name = encodeURIComponent(document.getElementById("name").value);
+                        var email = encodeURIComponent(document.getElementById("email").value);
+                        var message = encodeURIComponent(document.getElementById("message").value);
+
+                        var mailtoLink = "mailto:example@gmail.com?subject=Subject&body=Name: " + name + "%0AEmail: " + email + "%0AMessage: " + message;
+
+                        window.location.href = mailtoLink;
+                    }
+                </script>
                 <form action="sendMail()" method="post" id="contactform">
                     <div class="container">
                         <div class="named reveal">
