@@ -138,7 +138,7 @@
                         var email = encodeURIComponent(document.getElementById("email").value);
                         var message = encodeURIComponent(document.getElementById("message").value);
 
-                        var mailtoLink = "mailto:example@gmail.com?subject=Subject&body=Név: " + name + "%0AEmail: " + email + "%0" + message;
+                        var mailtoLink = "mailto:example@gmail.com?subject=Subject&body=Név: " + name + "%0AEmail: " + email + "%0A" + message;
 
                         window.location.href = mailtoLink;
                     }
