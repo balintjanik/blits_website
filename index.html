@@ -155,8 +155,10 @@
                         </div>
                     </div>
                     <!--<label for="message">Üzenet:</label>-->
-                    <textarea class="reveal" id="message" name="message" rows="7" required placeholder="Üzenet"></textarea>
-                    <input class="reveal" type="submit" value="Küldés" onclick="sendMail()">
+                    <div class="reveal"> 
+                        <textarea id="message" name="message" rows="7" required placeholder="Üzenet"></textarea>
+                        <input type="submit" value="Küldés" onclick="sendMail()">
+                    </div>
                 </form>
             </div>
         </div>
