@@ -348,6 +348,15 @@ p{
   }
 
 
+/* CREDIT */
+.credit .credit-content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb( 56,  98, 178);/*#333333;*/
+    color: rgb(240, 240, 240);
+    padding-bottom: 30px;
+}
+
 /* RESPONSIVE STUFF */
 
 @media (max-width: 1100px){
