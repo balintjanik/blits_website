@@ -349,12 +349,15 @@ p{
 
 
 /* CREDIT */
+.credit {
+    background-color: rgb( 56,  98, 178);
+    padding: 0 5vh 30px 5vh;
+}
 .credit .credit-content{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: rgb( 56,  98, 178);/*#333333;*/
+    /*#333333;*/
     color: rgb(240, 240, 240);
-    padding-bottom: 30px;
 }
 
 /* RESPONSIVE STUFF */
@@ -452,5 +455,8 @@ p{
     .contact-content #contactform input,
     .contact .contact-content #contactform textarea{
         font-size: 1rem;
+    }
+    .credit .credit-content{
+        font-size: 0.9rem;
     }
 }
