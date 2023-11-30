@@ -137,8 +137,8 @@
                         var name = encodeURIComponent(document.getElementById("name").value);
                         var email = encodeURIComponent(document.getElementById("email").value);
                         var message = encodeURIComponent(document.getElementById("message").value);
-
-                        var mailtoLink = "mailto:erettsegifelkeszito@blits.hu?subject=Kapcsolatfelvétel&body=Név: " + name + "%0AEmail: " + email + "%0A-------------------------------------------------%0A" + message;
+                        
+                        var mailtoLink = "mailto:blitserettsegifelkeszito@gmail.com?subject=Kapcsolatfelvétel&body=Név: " + name + "%0AEmail: " + email + "%0A-------------------------------------------------%0A" + message;//"mailto:erettsegifelkeszito@blits.hu?subject=Kapcsolatfelvétel&body=Név: " + name + "%0AEmail: " + email + "%0A-------------------------------------------------%0A" + message;
 
                         window.location.href = mailtoLink;
                     }
