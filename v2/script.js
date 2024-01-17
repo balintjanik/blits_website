@@ -75,7 +75,7 @@ window.onload = function(){
     var dyncss = document.getElementById('dynamic')
     if(isTouchScreen === true) {
         //alert("You are using a touch screen")
-        dyncss.setAttribute("href", "touch.css")
+        dyncss.setAttribute("href", "v2/touch.css")
         phone = true;
         // reorganize odd teachers
         const psliders = document.querySelectorAll(".slider-container")
@@ -87,7 +87,7 @@ window.onload = function(){
         }
     }else {
         //alert("You are not using a touch screen")
-        dyncss.setAttribute("href", "pc.css")
+        dyncss.setAttribute("href", "v2/pc.css")
         phone = false
     }
     // MENU BTN EVENT LISTENER
